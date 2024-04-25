@@ -17,6 +17,9 @@ const UserLoginPage = ({ onPageChange }) => {
     // For demonstration purposes, you can console log the username and password
     console.log("Username:", username);
     console.log("Password:", password);
+
+    // If Pass
+    onPageChange('home'); 
   };
 
   return (

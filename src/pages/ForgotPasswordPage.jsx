@@ -9,7 +9,6 @@ const ForgotPasswordPage = ({ onPageChange }) => {
     <div>
       <h1>Forgot Password</h1>
       {/* Add your content for the forgot password page here */}
-      <p>Content for the Forgot Password page...</p>
       <button onClick={handleGoBack}>Go Back to Login</button>
     </div>
   );
