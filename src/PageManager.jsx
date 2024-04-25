@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import WelcomePage from './pages/WelcomePage';
 import UserLoginPage from './pages/UserLoginPage';
+import ForgotPasswordPage from './pages/ForgotPasswordPage';
 
 const PageManager = () => {
   const [currentPage, setCurrentPage] = useState('welcome');
@@ -15,6 +16,8 @@ const PageManager = () => {
         return <WelcomePage onPageChange={handlePageChange} />;
       case 'login':
         return <UserLoginPage onPageChange={handlePageChange} />;
+      case 'forgot':
+        return <ForgotPasswordPage onPageChange={handlePageChange} />;
       // Add more cases for other pages as needed
       default:
         return null;
