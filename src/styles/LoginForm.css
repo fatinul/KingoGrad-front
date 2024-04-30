@@ -1,0 +1,81 @@
+.container {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    background: #BAD893;
+  }
+  
+  .title {
+    width: 680px;
+    height: 162px;
+    left: 620px;
+    top: 210px;
+    position: absolute;
+    color: #045C5A;
+    font-size: 150px;
+    font-family: 'Abhaya Libre ExtraBold';
+    font-weight: 800;
+    word-wrap: break-word;
+  }
+  
+  .box1,
+  .box3 {
+    width: 667px;
+    height: 86px;
+    position: absolute;
+    background: #FCFFFF;
+    border-radius: 50px;
+  }
+  
+  .box2,
+  .box4 {
+    width: 659px;
+    height: 48px;
+    position: absolute;
+    background: #045C5A;
+    border-radius: 50px;
+  }
+  
+  .image1 {
+    width: 96px;
+    height: 85px;
+    left: 671px;
+    top: 458px;
+    position: absolute;
+  }
+  
+  .image2 {
+    width: 127px;
+    height: 104px;
+    left: 655px;
+    top: 583px;
+    position: absolute;
+  }
+  
+  .login-btn {
+    width: 290px;
+    height: 59px;
+    left: 907px;
+    top: 730px;
+    position: absolute;
+    color: #FCFFFF;
+    font-size: 50px;
+    font-family: 'Abhaya Libre ExtraBold';
+    font-weight: 800;
+    word-wrap: break-word;
+  }
+  
+  .forgot-password {
+    width: 659px;
+    height: 53px;
+    left: 634px;
+    top: 797px;
+    position: absolute;
+    text-align: center;
+    color: #045C5A;
+    font-size: 25px;
+    font-family: 'Abhaya Libre';
+    font-weight: 700;
+    word-wrap: break-word;
+  }
+  
