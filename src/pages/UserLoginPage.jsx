@@ -53,12 +53,10 @@ const UserLoginPage = ({ onPageChange }) => {
             onChange={handlePasswordChange}
           />
         </div>
-        <div className='login'>
+        <div className='login-button-div'>
           <button className="login-button" type="button" onClick={handleLogin}>Login</button>
-        </div>
-        <div className='forgot-password'>
           <p 
-            onClick={() => onPageChange('forgot')} 
+            className='forgot-text' onClick={() => onPageChange('forgot')} 
           >
             Forgot Password?
           </p>

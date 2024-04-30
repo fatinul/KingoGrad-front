@@ -13,10 +13,10 @@ const WelcomePage = ({ onPageChange }) => {
   return (
     <div className='welcome-page'>
       <div className='login-div'>
-        <button className="login-button"onClick={() => onPageChange('login')}>
+        <div className="login-button"onClick={() => onPageChange('login')}>
            <img className="person-circle" alt="Person circle" src={loginlogo} />
             <div className="login-text">Login</div>
-         </button>
+         </div>
       </div>
       <div className='title-div'>
         <img className='ingograd-logo' src={ingoGrad} alt="title" />

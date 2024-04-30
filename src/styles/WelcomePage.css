@@ -114,11 +114,19 @@
     position: absolute;
 } */
 
+html{
+    margin: 0;
+}
+
+body{
+    margin: 0;
+}
+
 .welcome-page{
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
     align-items: center;
+    height: 100vh;
 }
 
 .welcome-page .login-div{
@@ -126,6 +134,7 @@
     flex-direction: row;
     justify-content: end;
     width: 100%;
+    cursor: pointer;
 }
 
 .welcome-page .login-button{
@@ -150,6 +159,7 @@
 .welcome-page .title-div{
     width: 100%;
     text-align: center;
+    padding-top:100px
 }
 
 .welcome-page .skk-text{
