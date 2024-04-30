@@ -1,0 +1,185 @@
+.internship-req-page {
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+  }
+  
+  .internship-req-page .div {
+    background-color: #ffffff;
+    height: 1080px;
+    overflow-x: hidden;
+    position: relative;
+    width: 1920px;
+  }
+  
+  .internship-req-page .group {
+    height: 229px;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 1930px;
+  }
+  
+  .internship-req-page .overlap-group {
+    background-color: #bad893;
+    height: 229px;
+    position: relative;
+    width: 1930px;
+  }
+  
+  .internship-req-page .text-wrapper {
+    color: #000000;
+    font-family: "Abhaya Libre-Bold", Helvetica;
+    font-size: 72px;
+    font-weight: 700;
+    left: center;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    text-align: center;
+    top: 83px;
+    width: 1928px;
+  }
+  
+  .internship-req-page .kingograd-logo {
+    height: 290px;
+    left: 50px;
+    object-fit: cover;
+    position: absolute;
+    top: 70px;
+    width: 230px;
+  }
+  
+  .internship-req-page .selected-major-MAJOR {
+    color: #000000;
+    font-family: "Source Sans Pro-SemiBold", Helvetica;
+    font-size: 36px;
+    font-weight: 400;
+    left: 581px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    text-align: center;
+    top: 262px;
+    width: 757px;
+  }
+  
+  .internship-req-page .span {
+    font-weight: 600;
+  }
+  
+  .internship-req-page .text-wrapper-2 {
+    font-family: "Source Sans Pro-Bold", Helvetica;
+    font-weight: 700;
+  }
+  
+  .internship-req-page .text-wrapper-3 {
+    color: #000000;
+    font-family: "Source Sans Pro-SemiBold", Helvetica;
+    font-size: 36px;
+    font-weight: 600;
+    left: 100px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 422px;
+    width: 757px;
+  }
+  
+  .internship-req-page .text-wrapper-4 {
+    color: #000000;
+    font-family: "Source Sans Pro-SemiBold", Helvetica;
+    font-size: 36px;
+    font-weight: 600;
+    left: 100px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 709px;
+    width: 757px;
+  }
+  
+  .internship-req-page .text-wrapper-5 {
+    color: #bad893;
+    font-family: "Source Sans Pro-SemiBold", Helvetica;
+    font-size: 36px;
+    font-weight: 600;
+    left: 100px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    text-decoration: underline;
+    top: 758px;
+    width: 757px;
+  }
+  
+  .internship-req-page .text-wrapper-6 {
+    color: #bad893;
+    font-family: "Source Sans Pro-SemiBold", Helvetica;
+    font-size: 36px;
+    font-weight: 600;
+    left: 100px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    text-decoration: underline;
+    top: 807px;
+    width: 757px;
+  }
+  
+  .internship-req-page .text-wrapper-7 {
+    color: #bad893;
+    font-family: "Source Sans Pro-SemiBold", Helvetica;
+    font-size: 36px;
+    font-weight: 600;
+    left: 100px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    text-decoration: underline;
+    top: 856px;
+    width: 757px;
+  }
+  
+  .internship-req-page .back-button {
+    all: unset;
+    box-sizing: border-box;
+    height: 90px;
+    left: 792px;
+    position: absolute;
+    top: 980px;
+    width: 338px;
+  }
+  
+  .internship-req-page .overlap {
+    height: 90px;
+    position: relative;
+    width: 336px;
+  }
+  
+  .internship-req-page .rectangle {
+    background-color: #045c5a;
+    border-radius: 50px;
+    height: 84px;
+    left: 9px;
+    position: absolute;
+    top: 0;
+    width: 319px;
+  }
+  
+  .internship-req-page .text-wrapper-8 {
+    color: #bad893;
+    font-family: "Source Sans Pro-Bold", Helvetica;
+    font-size: 48px;
+    font-weight: 700;
+    left: 0;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    text-align: center;
+    top: 10px;
+    width: 336px;
+  }
+  
