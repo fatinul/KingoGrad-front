@@ -30,6 +30,7 @@ const ForgotPasswordPage = ({ onPageChange }) => {
   // );
   return (
     <div className="forgotPass">
+      <button className="button" onClick={() => onPageChange('login')}>Go Back</button>
       <div className='title'>
         <h1>Retrieve Password</h1>
       </div>
@@ -46,15 +47,15 @@ const ForgotPasswordPage = ({ onPageChange }) => {
         </div>
       </form>
       <div className='back'>
-        <button className="retrieve-button" type="button" onClick={handleRetrieve}>Retrive</button>
+        <button className="retrieve-button" type="button" onClick={handleRetrieve}>Retrieve</button>
       </div>
-      <div className='back-to-login'>
+      {/* <div className='back-to-login'>
         <p 
           onClick={() => onPageChange('login')} 
         >
           Go Back to Login
         </p>
-      </div>
+      </div> */}
 
     </div>
   );
