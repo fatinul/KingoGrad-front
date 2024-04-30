@@ -26,7 +26,7 @@ const UserLoginPage = ({ onPageChange }) => {
   };
 
   return (
-    <div className="container">
+    <div className="login">
       <button className="button" onClick={() => onPageChange('welcome')}>Go Back</button>
       <div className='title'>
         <h2>User Login</h2>
@@ -55,7 +55,8 @@ const UserLoginPage = ({ onPageChange }) => {
         </div>
         <div className='login'>
           <button className="login-button" type="button" onClick={handleLogin}>Login</button>
-        </div><div className='forgot-password'>
+        </div>
+        <div className='forgot-password'>
           <p 
             onClick={() => onPageChange('forgot')} 
           >

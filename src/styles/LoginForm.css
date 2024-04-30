@@ -1,45 +1,45 @@
-.container {
+.login {
   background-color: #bad893;
   height: 100%;
   width: 100%;
 }
 
-.form-container {
+.login .form-container {
   text-align: center;
 }
 
-.title {
+.login .title {
   color: #045c5a;
   text-align: center;
   font-size: 50px;
 }
 
-.image {
+.login .image {
   width: 20px;
   margin-right: 10px;
   margin-left: 10px;
 }
 
-.password {
+.login .password {
   margin-bottom: 10px;
 }
 
-.password-input {
+.login .password-input {
   width: 30px;
 }
 
-.forgot-password {
+.login .forgot-password {
   color: #2e856e;
   font-size:12px;
   font-family: 'Abhaya Libre';
   text-align: center;
 }
 
-.forgot-password:hover {
+.login .forgot-password:hover {
   text-decoration: underline;
 }
 
-.button {
+.login .button {
   background-color: #2e856e;
   color: white;
   border: none;
@@ -50,12 +50,12 @@
   font-family: 'Abhaya Libre';
 }
 
-.login {
+.login .login {
   text-align: center;
   
 }
 
-.login-button {
+.login .login-button {
   background-color: #2e856e;
   color: white;
   border: none;
