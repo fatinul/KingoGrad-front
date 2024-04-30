@@ -116,14 +116,15 @@
 
 .welcome-page{
     display: flex;
+    flex-direction: column;
     justify-content: space-around;
     align-items: center;
 }
 
 .welcome-page .login-div{
-
-    border: 1px solid black;
-    align-items: end;
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
     width: 100%;
 }
 
@@ -135,5 +136,32 @@
 }
 
 .welcome-page .login-text{
-    font
+    color: #045c5a;
+    font-family: "Source Sans Pro-Bold", Helvetica;
+    font-size: 20px;
+    font-weight: 1000;
+    padding-left: 5px;
+}
+
+.welcome-page .person-circle{
+    width: 30px;
+}
+
+.welcome-page .title-div{
+    width: 100%;
+    text-align: center;
+}
+
+.welcome-page .skk-text{
+    font-size: 30px;
+    text-align: center;
+}
+
+.welcome-page .ingograd-text{
+    font-size: 140px;
+    color: #045c5a;
+}
+
+.welcome-page .ingograd-logo{
+    width: 60%;
 }

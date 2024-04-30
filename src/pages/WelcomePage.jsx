@@ -2,6 +2,7 @@ import React from 'react';
 import "../styles/WelcomePage.css"
 import logo from '../../assets/kingograd_logo-removebg-preview.png';
 import loginlogo from '../../assets/PersonCircle.png';
+import ingoGrad from '../../assets/ingoGrad.png';
 
 const WelcomePage = ({ onPageChange }) => {
   const handleScrollDown = () => {
@@ -10,40 +11,15 @@ const WelcomePage = ({ onPageChange }) => {
   }
 
   return (
-    // <div className="welcome-page">
-    //   <button className="login-button"onClick={() => onPageChange('login')}>
-    //       <div className="overlap">
-    //         <div className="text-wrapper-3">
-    //           Login
-    //         </div>
-    //         <img className="person-circle" alt="Person circle" src={loginlogo} />
-    //       </div>
-    //   </button>
-    //   <div className="div">
-    //     <div className="text-wrapper">
-    //       SUNGKYUNKWAN UNIVERSITY
-    //     </div>
-    //     <img className="kingograd-logo" alt="Kingograd logo" src={logo} />
-    //     <div className="kingograd-text">
-    //       ingoGrad
-    //     </div>
-    //     <button className="learn-more-button">
-    //       <div className="overlap-group">
-    //         <div className="rectangle" />
-    //         <div className="text-wrapper-2">
-    //           Learn More
-    //         </div>
-    //       </div>
-    //     </button>
-        
-    //   </div>
-    // </div>
     <div className='welcome-page'>
       <div className='login-div'>
         <button className="login-button"onClick={() => onPageChange('login')}>
            <img className="person-circle" alt="Person circle" src={loginlogo} />
             <div className="login-text">Login</div>
          </button>
+      </div>
+      <div className='title-div'>
+        <img className='ingograd-logo' src={ingoGrad} alt="title" />
       </div>
     </div>
   );
