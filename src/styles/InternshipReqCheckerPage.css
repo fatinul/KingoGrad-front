@@ -85,7 +85,32 @@
     line-height: normal;
     position: absolute;
     top: 422px;
-    width: 757px;
+    width: 100%;
+  }
+
+  .internship-req-page .table{
+    color: #000000;
+    font-family: "Source Sans Pro-SemiBold", Helvetica;
+    font-size: 36px;
+    font-weight: 600;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    left: 100px;
+    top: 510px;
+    width: 100%;
+  }
+
+  .internship-req-page th, td{
+    border: 1px solid;
+    padding-left: 40px;
+    padding-right: 40px;
+    text-align: center;
+  }
+
+  .internship-req-page th, td:first-child{
+    background-color: #188D0E;
+    color: #ffffff;
   }
   
   .internship-req-page .text-wrapper-4 {

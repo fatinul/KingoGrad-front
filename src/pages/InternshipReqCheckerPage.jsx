@@ -21,6 +21,68 @@ const InternshipReqCheckerPage = ({ onPageChange }) => {
             <span className="text-wrapper-2"> MAJOR</span>
           </p>
           <div className="text-wrapper-3">Available internship positions</div>
+          <div className='table'>
+            <table>
+              <tr>
+                <th>Position</th>
+                <th>Company</th>
+                <th>Requirements</th>
+                <th>Link ot Application</th>
+                <th>Deadline</th>
+              </tr>
+              <tr>
+                <td>
+                  Position1
+                </td>
+                <td>
+                  Comp1
+                </td>
+                <td>
+                  Req1
+                </td>
+                <td>
+                  Link1
+                </td>
+                <td>
+                  D1
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  Position1
+                </td>
+                <td>
+                  Comp1
+                </td>
+                <td>
+                  Req1
+                </td>
+                <td>
+                  Link1
+                </td>
+                <td>
+                  D1
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  Position1
+                </td>
+                <td>
+                  Comp1
+                </td>
+                <td>
+                  Req1
+                </td>
+                <td>
+                  Link1
+                </td>
+                <td>
+                  D1
+                </td>
+              </tr>
+            </table>
+          </div>
           <div className="text-wrapper-4">Useful links:</div>
           <div className="text-wrapper-5">link1</div>
           <div className="text-wrapper-6">link2</div>
