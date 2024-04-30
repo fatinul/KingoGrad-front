@@ -1,45 +1,42 @@
-body {
-  font-family: 'Arial', sans-serif;
-  background-color: #cde4d0;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 100vh;
-  margin: 0;
-}
-
 .container {
   background-color: #bad893;
-  padding: 20px;
-  border-radius: 5px;
-  width: 300px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-}
-
-h2 {
-  color: #045C5A;
-  text-align: center;
-  font-size: 40px;
-  font-family: 'Abhaya Libre';
-}
-
-.input-group {
-  margin-bottom: 20px;
-}
-
-.input-group label {
-  display: block;
-  margin-bottom: 5px;
-  color: #333;
-}
-
-.input-group input {
+  height: 100%;
   width: 100%;
-  padding: 10px;
+}
+
+.form-container {
+  text-align: center;
+}
+
+.title {
+  color: #045c5a;
+  text-align: center;
+  font-size: 50px;
+}
+
+.image {
+  width: 20px;
+  margin-right: 10px;
+  margin-left: 10px;
+}
+
+.password {
   margin-bottom: 10px;
-  border-radius: 5px;
-  border: 1px solid #ddd;
-  box-sizing: border-box;
+}
+
+.password-input {
+  width: 30px;
+}
+
+.forgot-password {
+  color: #2e856e;
+  font-size:12px;
+  font-family: 'Abhaya Libre';
+  text-align: center;
+}
+
+.forgot-password:hover {
+  text-decoration: underline;
 }
 
 .button {
@@ -47,243 +44,26 @@ h2 {
   color: white;
   border: none;
   padding: 10px;
-  width: 100%;
   border-radius: 5px;
   cursor: pointer;
   font-size: 16px;
-}
-
-.forgot-password {
-  background-color: transparent;
-  color: #2e856e;
-  padding: 10px;
-  border: none;
-  width: 100%;
-  text-align: left;
-  cursor: pointer;
-  font-size: 14px;
-  text-align: center;
   font-family: 'Abhaya Libre';
 }
 
-.forgot-password:hover {
-  text-decoration: underline;
+.login {
+  text-align: center;
+  
 }
 
-.user {
-  width: 96px;
-  height: 85px;
-  left: 671px;
-  top: 458px;
+.login-button {
+  background-color: #2e856e;
+  color: white;
+  border: none;
+  padding: 5px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  font-family: 'Abhaya Libre';
+  text-align: center;
+  width: 200px;
 }
-
-.pass {
-  width: 127px;
-  height: 104px;
-  left: 655px;
-  top: 583px;
-}
-
-/* Add some padding inside the window */
-html {
-  box-sizing: border-box;
-}
-
-*, *:before, *:after {
-  box-sizing: inherit;
-}
-/*.container {
-    width: 100%;
-    height: 100%;
-    position: relative;
-    background: #BAD893;
-  }
-  
-  .title {
-    width: 680px;
-    height: 162px;
-    left: 620px;
-    top: 210px;
-    position: absolute;
-    color: #045C5A;
-    font-size: 150px;
-    font-family: 'Abhaya Libre ExtraBold';
-    font-weight: 800;
-    word-wrap: break-word;
-  }
-  
-  .box1,
-  .box3 {
-    width: 667px;
-    height: 86px;
-    position: absolute;
-    background: #FCFFFF;
-    border-radius: 50px;
-  }
-  
-  .box2,
-  .box4 {
-    width: 659px;
-    height: 48px;
-    position: absolute;
-    background: #045C5A;
-    border-radius: 50px;
-  }
-  
-  .image1 {
-    width: 96px;
-    height: 85px;
-    left: 671px;
-    top: 458px;
-    position: absolute;
-  }
-  
-  .image2 {
-    width: 127px;
-    height: 104px;
-    left: 655px;
-    top: 583px;
-    position: absolute;
-  }
-  
-  .login-btn {
-    width: 290px;
-    height: 59px;
-    left: 907px;
-    top: 730px;
-    position: absolute;
-    color: #FCFFFF;
-    font-size: 50px;
-    font-family: 'Abhaya Libre ExtraBold';
-    font-weight: 800;
-    word-wrap: break-word;
-  }
-  
-  .forgot-password {
-    width: 659px;
-    height: 53px;
-    left: 634px;
-    top: 797px;
-    position: absolute;
-    text-align: center;
-    color: #045C5A;
-    font-size: 25px;
-    font-family: 'Abhaya Libre';
-    font-weight: 700;
-    word-wrap: break-word;
-  }
-  /*
-  .login {
-    background-color: #bad893;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    width: 100%;
-  }
-  
-  .login .div {
-    background-color: #bad893;
-    height: 1080px;
-    position: relative;
-    width: 1920px;
-  }
-  
-  .login .text-wrapper {
-    color: #045c5a;
-    font-family: "Abhaya Libre ExtraBold-Regular", Helvetica;
-    font-size: 150px;
-    font-weight: 400;
-    left: 620px;
-    letter-spacing: 0;
-    line-height: normal;
-    position: absolute;
-    top: 209px;
-    white-space: nowrap;
-    width: 680px;
-  }
-  
-  .login .overlap {
-    height: 104px;
-    left: 626px;
-    position: absolute;
-    top: 583px;
-    width: 667px;
-  }
-  
-  .login .rectangle {
-    background-color: #fcffff;
-    border-radius: 50px;
-    height: 86px;
-    left: 0;
-    position: absolute;
-    top: 9px;
-    width: 667px;
-  }
-  
-  .login .pass-image-removebg {
-    height: 104px;
-    left: 29px;
-    object-fit: cover;
-    position: absolute;
-    top: 0;
-    width: 127px;
-  }
-  
-  .login .overlap-group {
-    height: 59px;
-    left: 634px;
-    position: absolute;
-    top: 729px;
-    width: 659px;
-  }
-  
-  .login .img {
-    height: 48px;
-    left: 0;
-    position: absolute;
-    top: 7px;
-    width: 659px;
-  }
-  
-  .login .text-wrapper-2 {
-    color: #fcffff;
-    font-family: "Abhaya Libre ExtraBold-Regular", Helvetica;
-    font-size: 50px;
-    font-weight: 400;
-    left: 273px;
-    letter-spacing: 0;
-    line-height: normal;
-    position: absolute;
-    top: 0;
-    white-space: nowrap;
-    width: 290px;
-  }
-  
-  .login .user-image-removebg-wrapper {
-    background-color: #fcffff;
-    border-radius: 50px;
-    height: 86px;
-    left: 626px;
-    position: absolute;
-    top: 457px;
-    width: 667px;
-  }
-  
-  .login .user-image-removebg {
-    height: 85px;
-    left: 45px;
-    object-fit: cover;
-    position: absolute;
-    top: 1px;
-    width: 96px;
-  }
-  
-  .login .forgot-password {
-    height: 21px;
-    left: 880px;
-    position: absolute;
-    top: 802px;
-    width: 167px;
-  }
-  */
-  
