@@ -1,17 +1,16 @@
 .welcome-page {
-    background-color: #ffffff;
+    background-color: #bad893;
     display: flex;
     flex-direction: row;
     justify-content: center;
-    height: 1vh;
     width: 100%;
-}
+    }
 
 .welcome-page .div {
-    background-color: #ffffff;
-    height: 100%;
+    background-color: #bad893;
+    height: 1080px;
     position: relative;
-    width: 100%;
+    width: 1920px;
 }
 
 .welcome-page .text-wrapper {
@@ -126,6 +125,6 @@
     height: 53px;
     left: 70px;
     position: absolute;
-    top: 7px;
+    top: 1px;
     width: 52px;
 }
