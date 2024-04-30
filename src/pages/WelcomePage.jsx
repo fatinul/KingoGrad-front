@@ -1,7 +1,7 @@
 import React from 'react';
-import "./WelcomePage.css"
-import logo from './kingograd_logo-removebg-preview.png';
-import loginlogo from '../assets/PersonCircle.png';
+import "../styles/WelcomePage.css"
+import logo from '../../assets/kingograd_logo-removebg-preview.png';
+import loginlogo from '../../assets/PersonCircle.png';
 
 const WelcomePage = ({ onPageChange }) => {
   const handleScrollDown = () => {
