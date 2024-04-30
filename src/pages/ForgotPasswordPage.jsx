@@ -29,7 +29,7 @@ const ForgotPasswordPage = ({ onPageChange }) => {
   //   </div>
   // );
   return (
-    <div className="container">
+    <div className="forgotPass">
       <div className='title'>
         <h1>Retrieve Password</h1>
       </div>
