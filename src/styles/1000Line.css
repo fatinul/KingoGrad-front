@@ -1,7 +1,5 @@
 .line-project {
   background-color: #ffffff;
-  height: 100vh;
-  width: 100%;
   padding: 10px;
 }
 
@@ -15,51 +13,49 @@
 
 .line-project .header-color {
   background-color: #bad893;
-  height: 229px;
-  position: relative;
-  width: 100%;
-  box-sizing: border-box;
+  height: 22vh;
 }
 
 .line-project .title {
   color: #045c5a;
   font-family: "Abhaya Libre-Bold";
-  font-size: 72px;
+  font-size: 4vw;
   font-weight: 700;
   text-align: center;
-  padding-top: 70px;
+  padding-top: 5.5vh;
 }
 
 .line-project .kingograd-logo {
-  height: 290px;
-  left: 100px;
-  object-fit: cover;
+  height: 25vh;
+  object-fit: contain;
+  left: 10vh;
   position: absolute;
-  top: 70px;
-  width: 230px;
+  top: 7vh;
+  width: 23vw;
 }
 
 .line-project .container {
   display: flex;
+  flex-wrap: wrap;
 }
 
 .line-project .left-panel {
-  flex: 33.33%;
-  /* position: relative; */
+  flex: 1;
+  padding: 0 4vw;
 }
 
 .line-project .right-panel {
-  flex: 66.66%;
-  /* position: relative; */
+  flex: 2;
+  padding: 0 4vw;
 }
 
 .line-project .element {
   color: transparent;
   font-family: "Source Sans Pro-SemiBold";
-  font-size: 128px;
+  font-size: 6vw;
   font-weight: 600;
   position: absolute;
-  bottom: 200px;
+  bottom: 30vh;
   left: 20%;
 }
 
@@ -74,57 +70,60 @@
 .line-project .incomplete {
   color: #e13131;
   font-family: "Source Sans Pro-SemiBold";
-  font-size: 36px;
+  font-size: 2.5vw;
   font-weight: 600;
   position: absolute;
-  bottom: 250px;
+  bottom: 30vh;
   left: 20%;
 }
 
 .line-project .inner-title {
   color: #045c5a;
   font-family: "Source Sans Pro-SemiBold";
-  font-size: 36px;
+  font-size: 2.5vw;
   font-weight: 600;
   text-align: left;
-  padding-top: 70px;
+  padding-top: 9vh;
 }
 
 .line-project .course {
   color: #000000;
   font-family: "Source Sans Pro-Regular";
-  font-size: 36px;
+  font-size: 2.3vw;
   font-weight: 400;
-  padding: 10px;
+  padding: 1vh;
 }
 
 .line-project .back-button {
   all: unset;
   box-sizing: border-box;
-  height: 90px;
+  height: 9vh;
   position: absolute;
-  bottom: 10px;
+  bottom: 5vh;
   left: 50%; /* Center the button horizontally */
   transform: translateX(-50%); /* Adjust to center the button */
   z-index: 1000;
 }
 
 .line-project .overlap {
-  position: relative;
+  /* position: relative; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .line-project .rectangle {
   background-color: #045c5a;
-  border-radius: 50px;
-  height: 84px;
+  border-radius: 5vh;
+  height: 8vh;
   position: relative;
-  width: 319px;
+  width: 20vw;
 }
 
 .line-project .text-back {
   color: #bad893;
   font-family: "Source Sans Pro-Bold", Helvetica;
-  font-size: 48px;
+  font-size: 2vw;
   font-weight: 700;
   letter-spacing: 0;
   line-height: normal;
