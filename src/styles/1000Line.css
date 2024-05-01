@@ -1,194 +1,137 @@
-.element-line-project {
-    background-color: #ffffff;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    width: 100%;
-  }
-  
-  .element-line-project .div {
-    background-color: #ffffff;
-    height: 1080px;
-    overflow-x: hidden;
-    position: relative;
-    width: 1920px;
-  }
-  
-  .element-line-project .group {
-    height: 229px;
-    left: 0;
-    position: absolute;
-    top: 0;
-    width: 1928px;
-  }
-  
-  .element-line-project .overlap-group {
-    background-color: #bad893;
-    height: 229px;
-    position: relative;
-    width: 1926px;
-  }
-  
-  .element-line-project .text-wrapper {
-    color: #000000;
-    font-family: "Abhaya Libre-Bold", Helvetica;
-    font-size: 72px;
-    font-weight: 700;
-    left: 362px;
-    letter-spacing: 0;
-    line-height: normal;
-    position: absolute;
-    text-align: center;
-    top: 83px;
-    width: 1261px;
-  }
-  
-  .element-line-project .kingograd-logo {
-    height: 290px;
-    left: 100px;
-    object-fit: cover;
-    position: absolute;
-    top: 70px;
-    width: 230px;
-  }
-  
-  .element-line-project .text-wrapper-2 {
-    color: #000000;
-    font-family: "Source Sans Pro-SemiBold", Helvetica;
-    font-size: 36px;
-    font-weight: 600;
-    left: 960px;
-    letter-spacing: 0;
-    line-height: normal;
-    position: absolute;
-    top: 369px;
-    width: 757px;
-  }
-  
-  .element-line-project .text-wrapper-3 {
-    color: #000000;
-    font-family: "Source Sans Pro-SemiBold", Helvetica;
-    font-size: 36px;
-    font-weight: 600;
-    left: 963px;
-    letter-spacing: 0;
-    line-height: normal;
-    position: absolute;
-    top: 629px;
-    width: 757px;
-  }
-  
-  .element-line-project .text-wrapper-4 {
-    color: #e13131;
-    font-family: "Source Sans Pro-SemiBold", Helvetica;
-    font-size: 36px;
-    font-weight: 600;
-    left: 40px;
-    letter-spacing: 0;
-    line-height: normal;
-    position: absolute;
-    text-align: center;
-    top: 759px;
-    width: 757px;
-  }
-  
-  .element-line-project .back-button {
-    all: unset;
-    box-sizing: border-box;
-    height: 90px;
-    left: 792px;
-    position: absolute;
-    top: 980px;
-    width: 338px;
-  }
-  
-  .element-line-project .overlap {
-    height: 90px;
-    position: relative;
-    width: 336px;
-  }
-  
-  .element-line-project .rectangle {
-    background-color: #045c5a;
-    border-radius: 50px;
-    height: 84px;
-    left: 9px;
-    position: absolute;
-    top: 0;
-    width: 319px;
-  }
-  
-  .element-line-project .text-wrapper-5 {
-    color: #bad893;
-    font-family: "Source Sans Pro-Bold", Helvetica;
-    font-size: 48px;
-    font-weight: 700;
-    left: 0;
-    letter-spacing: 0;
-    line-height: normal;
-    position: absolute;
-    text-align: center;
-    top: 10px;
-    width: 336px;
-  }
-  
-  .element-line-project .introduction-to {
-    color: #000000;
-    font-family: "Source Sans Pro-Regular", Helvetica;
-    font-size: 36px;
-    font-weight: 400;
-    left: 963px;
-    letter-spacing: 0;
-    line-height: normal;
-    position: absolute;
-    top: 452px;
-    width: 757px;
-  }
-  
-  .element-line-project .span {
-    color: #000000;
-    font-family: "Source Sans Pro-Regular", Helvetica;
-    font-size: 36px;
-    font-weight: 400;
-    letter-spacing: 0;
-  }
-  
-  .element-line-project .text-wrapper-6 {
-    font-family: "Source Sans Pro-SemiBold", Helvetica;
-    font-weight: 600;
-  }
-  
-  .element-line-project .text-wrapper-7 {
-    color: #000000;
-    font-family: "Source Sans Pro-Regular", Helvetica;
-    font-size: 36px;
-    font-weight: 400;
-    left: 960px;
-    letter-spacing: 0;
-    line-height: normal;
-    position: absolute;
-    top: 729px;
-    width: 757px;
-  }
-  
-  .element-line-project .element {
-    color: transparent;
-    font-family: "Source Sans Pro-SemiBold", Helvetica;
-    font-size: 128px;
-    font-weight: 600;
-    left: 220px;
-    letter-spacing: 0;
-    line-height: normal;
-    position: absolute;
-    text-align: center;
-    top: 509px;
-    width: 400px;
-  }
-  
-  .element-line-project .text-wrapper-8 {
-    color: #646161;
-  }
-  
-  .element-line-project .text-wrapper-9 {
-    color: #000000;
-  }
+.line-project {
+  background-color: #ffffff;
+  height: 100vh;
+  width: 100%;
+  padding: 10px;
+}
+
+.line-project .div {
+  /* background-color: #ffffff;
+  height: 1080px;
+  overflow-x: hidden;
+  position: relative;
+  width: 1920px; */
+}
+
+.line-project .header-color {
+  background-color: #bad893;
+  height: 229px;
+  position: relative;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.line-project .title {
+  color: #045c5a;
+  font-family: "Abhaya Libre-Bold";
+  font-size: 72px;
+  font-weight: 700;
+  text-align: center;
+  padding-top: 70px;
+}
+
+.line-project .kingograd-logo {
+  height: 290px;
+  left: 100px;
+  object-fit: cover;
+  position: absolute;
+  top: 70px;
+  width: 230px;
+}
+
+.line-project .container {
+  display: flex;
+}
+
+.line-project .left-panel {
+  flex: 33.33%;
+  /* position: relative; */
+}
+
+.line-project .right-panel {
+  flex: 66.66%;
+  /* position: relative; */
+}
+
+.line-project .element {
+  color: transparent;
+  font-family: "Source Sans Pro-SemiBold";
+  font-size: 128px;
+  font-weight: 600;
+  position: absolute;
+  bottom: 200px;
+  left: 20%;
+}
+
+.line-project .completed-num {
+  color: #646161;
+}
+
+.line-project .need-num {
+  color: #000000;
+}
+
+.line-project .incomplete {
+  color: #e13131;
+  font-family: "Source Sans Pro-SemiBold";
+  font-size: 36px;
+  font-weight: 600;
+  position: absolute;
+  bottom: 250px;
+  left: 20%;
+}
+
+.line-project .inner-title {
+  color: #045c5a;
+  font-family: "Source Sans Pro-SemiBold";
+  font-size: 36px;
+  font-weight: 600;
+  text-align: left;
+  padding-top: 70px;
+}
+
+.line-project .course {
+  color: #000000;
+  font-family: "Source Sans Pro-Regular";
+  font-size: 36px;
+  font-weight: 400;
+  padding: 10px;
+}
+
+.line-project .back-button {
+  all: unset;
+  box-sizing: border-box;
+  height: 90px;
+  position: absolute;
+  bottom: 10px;
+  left: 50%; /* Center the button horizontally */
+  transform: translateX(-50%); /* Adjust to center the button */
+  z-index: 1000;
+}
+
+.line-project .overlap {
+  position: relative;
+}
+
+.line-project .rectangle {
+  background-color: #045c5a;
+  border-radius: 50px;
+  height: 84px;
+  position: relative;
+  width: 319px;
+}
+
+.line-project .text-back {
+  color: #bad893;
+  font-family: "Source Sans Pro-Bold", Helvetica;
+  font-size: 48px;
+  font-weight: 700;
+  letter-spacing: 0;
+  line-height: normal;
+  text-align: center;
+  position: absolute;
+  top: 50%; /* Position the text vertically at the center */
+  left: 50%; /* Position the text horizontally at the center */
+  transform: translate(-50%, -50%); /* Adjust to center the text */
+  width: 100%;
+}

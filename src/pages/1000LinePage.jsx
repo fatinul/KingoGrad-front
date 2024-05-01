@@ -1,50 +1,43 @@
 import React from 'react';
+import "../styles/1000Line.css"
+import logo from '../../assets/kingograd_logo-removebg-preview.png';
 
 const ThousandLinePage = ({ onPageChange }) => {
   const handleGoBack = () => {
     onPageChange('home'); 
   };
-
-  // return (
-  //   <div>
-  //     <button onClick={handleGoBack}>Go Back Home Page</button>
-  //     <h1>1000 Line Project</h1>
-  //     {/* Add your content */}
-  //   </div>
-  // );
+  
   return (
-    <div className="element-line-project">
-      <div className="div">
-        <div className="group">
-          <div className="overlap-group">
-            <div className="text-wrapper">1000-Line Project</div>
+    <div className='line-project'>
+      <div className='div'>
+        <div className='header-color'>
+          <div className='title'>
+            1000-Line Project
           </div>
         </div>
-        <img className="kingograd-logo" alt="Kingograd logo" src="kingograd-logo-removebg-preview-1.png" />
-        <div className="text-wrapper-2">Completed</div>
-        <div className="text-wrapper-3">Remaining</div>
-        <div className="text-wrapper-4">Incomplete</div>
-        <button className="back-button">
+        <img className="kingograd-logo" alt="Kingograd logo" src={logo} />
+        <div className='container'> 
+          <div className='left-panel'>
+            <p className="element">
+              <span className="completed-num">1</span>
+              <span className="need-num"> / 2</span>
+            </p>
+            <div className='incomplete'>Incomplete</div>
+          </div>
+          <div className='right-panel'>
+            <div className='inner-title'>Completed</div>
+            <div className='course'>Introduction to Computer Architecture</div>
+            <div className='inner-title'>Remaining</div>
+            <div className='course'>Introduction to Database</div>
+          </div>
+        </div>
+        <button className="back-button" onClick={handleGoBack}>
           <div className="overlap">
             <div className="rectangle" />
-            <div className="text-wrapper-5">Back</div>
+            <div className="text-back">Back</div>
           </div>
         </button>
-        <p className="introduction-to">
-          <span className="span">Introduction to Computer Architecture </span>
-          <span className="text-wrapper-6">
-            A<br />
-          </span>
-          <span className="span">
-            <br />
-          </span>
-        </p>
-        <div className="text-wrapper-7">Introduction to Database</div>
-        <p className="element">
-          <span className="text-wrapper-8">1</span>
-          <span className="text-wrapper-9"> / 2</span>
-        </p>
-      </div>
+      </div>  
     </div>
   );
 };
