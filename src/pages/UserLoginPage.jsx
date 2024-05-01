@@ -36,7 +36,7 @@ const UserLoginPage = ({ onPageChange }) => {
         <div className='username'>
           <img className="image" src={image1} alt="user" />
           <input
-            className="username-input"
+            className="input"
             type="text"
             placeholder="Username"
             value={username}
@@ -46,7 +46,7 @@ const UserLoginPage = ({ onPageChange }) => {
         <div className='password'>
           <img className="image" src={image2} alt="pass" />
           <input
-            className='="password-input'
+            className='input'
             type="password"
             placeholder="Password"
             value={password}

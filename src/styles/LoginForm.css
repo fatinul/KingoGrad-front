@@ -1,6 +1,6 @@
 .login {
   background-color: #bad893;
-  height: 100vh;
+  height: 98vh;
   width: 100%;
   padding: 10px;
 }
@@ -12,26 +12,31 @@
 .login .title {
   color: #045c5a;
   text-align: center;
-  font-size: 50px;
+  font-size: 5vw;
+}
+
+.login .input {
+  width: 30vw; 
+  font-size: 2.5vw;  
+  padding: 1vh; 
+  margin: 1vh;
+  border: 2px solid #ccc;  
+  border-radius: 5px;  
 }
 
 .login .image {
-  width: 20px;
-  margin-right: 10px;
-  margin-left: 10px;
+  width: 4vw;
+  margin-right: 1vw;
+  margin-left: 1vw;
 }
 
 .login .password {
-  margin-bottom: 10px;
-}
-
-.login .password-input {
-  width: 30px;
+  margin-bottom: 1vh;
 }
 
 .login .forgot-text {
   color: #2e856e;
-  font-size:12px;
+  font-size: 1.5vw;
   font-family: 'Abhaya Libre';
   text-align: center;
 }
@@ -45,10 +50,10 @@
   background-color: #2e856e;
   color: white;
   border: none;
-  padding: 10px;
+  padding: 1vh;
   border-radius: 5px;
   cursor: pointer;
-  font-size: 16px;
+  font-size: 2vw;
   font-family: 'Abhaya Libre';
 }
 
@@ -60,11 +65,12 @@
   background-color: #2e856e;
   color: white;
   border: none;
-  padding: 5px;
-  border-radius: 5px;
+  padding: 0.5vh;
+  border-radius: 1vh;
   cursor: pointer;
-  font-size: 16px;
+  font-size: 2vw;
   font-family: 'Abhaya Libre';
   text-align: center;
-  width: 200px;
+  width: 20vw;
+  margin-top: 3vh;
 }
