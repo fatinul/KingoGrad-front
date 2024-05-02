@@ -1,0 +1,108 @@
+.thesis {
+  background-color: #ffffff;
+}
+
+.thesis .div {
+}
+
+.thesis .header-color {
+  background-color: #bad893;
+  height: 22vh;
+}
+
+.thesis .title {
+  color: #045c5a;
+  font-family: "Abhaya Libre-Bold";
+  font-size: 4vw;
+  font-weight: 700;
+  text-align: center;
+  padding-top: 5.5vh;
+}
+
+.thesis .kingograd-logo {
+  height: 25vh;
+  object-fit: contain;
+  left: 10vh;
+  position: absolute;
+  top: 7vh;
+  width: 23vw;
+}
+
+.submission-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between; 
+  align-items: center;
+  margin-top: 20px;
+}
+
+.submission-item {
+  flex: 1 0 30%; 
+  margin: 10px; 
+  border: 2px solid #ccc;
+  padding: 20px;
+  text-align: center;
+  align-items: center;
+}
+
+.submission-item.complete {
+  border-color: green;
+}
+
+.submission-item.incomplete {
+  border-color: red;
+}
+
+.submission-item img {
+  width: 70px;
+  height: auto;
+}
+
+.stage-name {
+  font-weight: bold;
+}
+
+.semester {
+  color: #666;
+}
+
+.thesis .back-button {
+  all: unset;
+  box-sizing: border-box;
+  height: 9vh;
+  position: absolute;
+  bottom: 5vh;
+  left: 50%; /* Center the button horizontally */
+  transform: translateX(-50%); /* Adjust to center the button */
+  z-index: 1000;
+}
+
+.thesis .overlap {
+  /* position: relative; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.thesis .rectangle {
+  background-color: #045c5a;
+  border-radius: 5vh;
+  height: 8vh;
+  position: relative;
+  width: 20vw;
+}
+
+.thesis .text-back {
+  color: #bad893;
+  font-family: "Source Sans Pro-Bold", Helvetica;
+  font-size: 2vw;
+  font-weight: 700;
+  letter-spacing: 0;
+  line-height: normal;
+  text-align: center;
+  position: absolute;
+  top: 50%; /* Position the text vertically at the center */
+  left: 50%; /* Position the text horizontally at the center */
+  transform: translate(-50%, -50%); /* Adjust to center the text */
+  width: 100%;
+}
