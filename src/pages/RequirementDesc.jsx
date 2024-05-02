@@ -29,10 +29,8 @@ const RequirementDesc = ({ onPageChange }) => {
                 </p>
                 <div className='bottom-div'>
                     <button className='back-button' onClick={handleGoBack}>
-                    
                         <div className="rectangle" />
                         <div className="text-back">Back</div>
-                    
                     </button>
                 </div>
             </div>
