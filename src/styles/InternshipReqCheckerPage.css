@@ -1,10 +1,22 @@
 .internship-req-page {
-    background-color: #ffffff;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    width: 100%;
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+
+  th, td{
+    border: 1px solid;
+    padding-left: 40px;
+    padding-right: 40px;
+    text-align: center;
   }
+
+  th, td:first-child{
+    background-color: #188D0E;
+    color: #ffffff;
+  }
+}
   
   .internship-req-page .div {
     background-color: #ffffff;
@@ -101,17 +113,7 @@
     width: 100%;
   }
 
-  .internship-req-page th, td{
-    border: 1px solid;
-    padding-left: 40px;
-    padding-right: 40px;
-    text-align: center;
-  }
-
-  .internship-req-page th, td:first-child{
-    background-color: #188D0E;
-    color: #ffffff;
-  }
+  
   
   .internship-req-page .text-wrapper-4 {
     color: #000000;
