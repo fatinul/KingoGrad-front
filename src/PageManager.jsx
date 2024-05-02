@@ -29,8 +29,6 @@ const PageManager = () => {
         return <RoadMapTrackerPage onPageChange={handlePageChange} />;
       case 'home':
         return <HomePage onPageChange={handlePageChange} />;
-      case 'internshipReq':
-        return <InternshipReqPage onPageChange={handlePageChange} />;
       case 'internshipReqChecker':
         return <InternshipReqCheckerPage onPageChange={handlePageChange} />;
       case 'thesis':
