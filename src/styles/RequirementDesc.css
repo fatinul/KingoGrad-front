@@ -1,0 +1,72 @@
+.desc .logo-container{
+    position: relative;
+
+    .logo{
+        align-items: left;
+        position: absolute;
+        top: -25vh; 
+        left: 10%; 
+        transform: translateX(-50%);
+    }
+}
+
+.desc .header{
+    display: flex;
+    justify-content: center;
+    font-size: larger;
+    background-color: #bad893;
+    padding-top: 5vh;
+    padding-bottom: 5vh;
+    width: 100%;
+
+    h1 {
+        font-size: 3vw;
+    }
+}
+
+.desc .detailed-desc {
+    font-size: 2vw;
+}
+
+.desc .back-button {
+    all: unset;
+    box-sizing: border-box;
+    height: 9vh;
+    position: absolute;
+    bottom: 0vh;
+    left: 50%; 
+    transform: translateX(-50%);
+    z-index: 1000;
+  }
+  
+  .desc .overlap {
+    align-items: bottom;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .desc .rectangle {
+    align-items: bottom;
+    background-color: #045c5a;
+    border-radius: 5vh;
+    height: 8vh;
+    position: relative;
+    width: 20vw;
+  }
+  
+  .desc .text-back {
+    align-items: bottom;
+    color: #bad893;
+    font-family: "Source Sans Pro-Bold", Helvetica;
+    font-size: 2vw;
+    font-weight: 700;
+    letter-spacing: 0;
+    line-height: normal;
+    text-align: center;
+    position: absolute;
+    top: 50%; /* Position the text vertically at the center */
+    left: 50%; /* Position the text horizontally at the center */
+    transform: translate(-50%, -50%); /* Adjust to center the text */
+    width: 100%;
+  }

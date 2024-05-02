@@ -8,6 +8,7 @@ import InternshipReqPage from './pages/InternshipReqPage';
 import InternshipReqCheckerPage from './pages/InternshipReqCheckerPage';
 import ThesisPage from './pages/ThesisPage';
 import ThousandLinePage from './pages/1000LinePage';
+import RequirementDesc from './pages/RequirementDesc';
 
 const PageManager = () => {
   const [currentPage, setCurrentPage] = useState('welcome');
@@ -36,6 +37,8 @@ const PageManager = () => {
         return <ThesisPage onPageChange={handlePageChange} />;
       case '1000Line':
         return <ThousandLinePage onPageChange={handlePageChange} />;
+      case 'description':
+        return <RequirementDesc onPageChange={handlePageChange} />;
       default:
         return null;
     }
