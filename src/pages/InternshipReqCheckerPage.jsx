@@ -9,13 +9,11 @@ const InternshipReqCheckerPage = ({ onPageChange }) => {
 
     return (
       <div className="internship-req-page">
-        <div className="div">
-          <div className="group">
+        <div className="internshipreq-div">
+        <img className="kingograd-logo" alt="Kingograd logo" src={logo} />
             <div className="overlap-group">
-              <div className="text-wrapper">INTERNSHIP REQUIREMENT CHECKER</div>
+              <div className="text-wrapper">INTERNSHIP REQUIREMENT</div>
             </div>
-          </div>
-          <img className="kingograd-logo" alt="Kingograd logo" src={logo} />
           <p className="selected-major-MAJOR">
             <span className="span">Selected major:</span>
             <span className="text-wrapper-2"> MAJOR</span>
@@ -95,7 +93,19 @@ const InternshipReqCheckerPage = ({ onPageChange }) => {
           </button>
         </div>
       </div>
-    );
+
+
+      // <div className="internship-req-page">
+      //   <div className="internshipreq-div">
+      //   {/* <h1 className="big-title">INTERNSHIP REQUIREMENT CHECKER</h1>
+      //     <img className="kingologo" src={logo} alt="kingologo" /> */}
+      //     <h1>
+      //     <img className="kingologo" src={logo} alt="kingologo" />
+      //     <h2 className="big-title">INTERNSHIP REQUIREMENT CHECKER</h2>
+      //     </h1>
+      //   </div>
+      // </div>
+    )
 };
 
 export default InternshipReqCheckerPage;

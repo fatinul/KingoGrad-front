@@ -1,54 +1,39 @@
 .internship-req-page {
     background-color: #ffffff;
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: center;
     width: 100%;
   }
   
-  .internship-req-page .div {
+  .internship-req-page .internshipreq-div {
     background-color: #ffffff;
-    height: 1080px;
-    overflow-x: hidden;
-    position: relative;
-    width: 1920px;
-  }
-  
-  .internship-req-page .group {
-    height: 229px;
-    left: 0;
-    position: absolute;
-    top: 0;
-    width: 1930px;
+    border: 5px solid black;
+    height: 25vh;
+    width: 100%;
   }
   
   .internship-req-page .overlap-group {
     background-color: #bad893;
-    height: 229px;
-    position: relative;
-    width: 1930px;
+    display: flex;
+    border: 5px solid black;
+    height: 25vh;
+    width: 100%;
   }
   
   .internship-req-page .text-wrapper {
     color: #000000;
     font-family: "Abhaya Libre-Bold", Helvetica;
-    font-size: 72px;
+    font-size: 4vw;
     font-weight: 700;
-    left: center;
-    letter-spacing: 0;
-    line-height: normal;
-    position: absolute;
+    padding-top: 70px;
     text-align: center;
-    top: 83px;
-    width: 1928px;
+    width: 100%;
   }
   
   .internship-req-page .kingograd-logo {
-    height: 290px;
-    left: 50px;
-    object-fit: cover;
+    height: 300px;
     position: absolute;
-    top: 70px;
     width: 230px;
   }
   
@@ -207,4 +192,37 @@
     top: 10px;
     width: 336px;
   }
+
+  /* .internship-req-page {
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+  
+  .internship-req-page .internshipreq-div {
+    background-color: #bad893;
+    border: 5px solid black;
+    height: 25vh;
+    width: 100%;
+  }
+  
+  .internship-req-page .big-title {
+    color: #000000;
+    font-family: Helvetica;
+    font-size: 60px;
+    font-weight: 700;
+    text-align: center;
+  }
+
+  .internship-req-page h2 {
+    width: 100%;
+    border: 5px solid black;
+    display: flex;
+    flex-direction: row;
+  }
+  
+  .internship-req-page .kingologo {
+    align-items: left;
+  } */
   
