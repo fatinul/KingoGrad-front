@@ -74,3 +74,17 @@
   width: 20vw;
   margin-top: 3vh;
 }
+
+.register-button {
+  background-color: #4CAF50; /* Green background for the register button */
+  color: white;
+  border: none;
+  padding: 0.5vh;
+  border-radius: 1vh;
+  cursor: pointer;
+  font-size: 2vw;
+  font-family: 'Abhaya Libre';
+  text-align: center;
+  width: 20vw;
+  margin-top: 3vh;
+}
