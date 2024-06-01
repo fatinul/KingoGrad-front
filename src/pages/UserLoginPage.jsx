@@ -93,13 +93,17 @@ const UserLoginPage = ({ onPageChange }) => {
     }
   };
 
+  const handleBypassLogin = () => {
+    console.log('Bypass login activated');
+    onPageChange('home');  // Directly navigate to the home page
+  };
+
   return (
     <div className="login">
       <button className="button" onClick={() => onPageChange('welcome')}>Go Back</button>
       <div className='title'>
         <h2>User Login / Register</h2>
       </div>
-      
       <form className="form-container">
         <div className='username'>
           <img className="image" src={image1} alt="user" />
@@ -139,6 +143,7 @@ const UserLoginPage = ({ onPageChange }) => {
           <p className='forgot-text' onClick={() => onPageChange('forgot')}>
             Forgot Password?
           </p>
+          <button className="bypass-button" type="button" onClick={handleBypassLogin}>Bypass Login</button>
         </div>
       </form>
     </div>
