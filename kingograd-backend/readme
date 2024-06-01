@@ -1,8 +1,4 @@
-1. install MongoDB: https://www.mongodb.com/try/download/community
-
-2. copy your MongoDB connection string to .env
-
-3. install dependencies in `kingograd-backend` folder
+1. install dependencies in `kingograd-backend` folder
 `npm install express mongoose cors dotenv bcryptjs jsonwebtoken`
 
-4. run backend with `node server.js`
+2. run backend with `node server.js`
