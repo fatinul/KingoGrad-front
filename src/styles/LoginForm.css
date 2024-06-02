@@ -1,6 +1,6 @@
 .login {
   background-color: #bad893;
-  height: 98vh;
+  height: 100%;
   width: 100%;
   padding: 10px;
 }
@@ -87,4 +87,15 @@
   text-align: center;
   width: 20vw;
   margin-top: 3vh;
+}
+
+.select-input {
+  margin: 10px 0;
+  margin-left: 80px;
+  padding: 10px;
+  width: 400px; /* Adjust the width as needed */
+}
+
+.studentid {
+  margin-left: 75px;
 }
