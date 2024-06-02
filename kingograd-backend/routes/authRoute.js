@@ -3,6 +3,7 @@ const User = require('../models/User');
 const bcrypt = require('bcryptjs');
 const jwt = require('jsonwebtoken');
 const router = express.Router();
+const { checkMinBGrades } = require('../BGradeChecker');
 
 // Registration route
 router.post('/register', async (req, res) => {
@@ -75,4 +76,25 @@ router.get('/user', async (req, res) => {
   }
 });
 
+// defining new route to check stud 10K req eligibility
+router.get('/student/:id/10K_req', async (req, res) => {
+  try {
+    const studentId = req.params.id;
+    const student = await User.findById(studentId);
+
+    if(!student) {
+      return res.status(404).json({ message: 'Student not found'});
+
+    }
+
+    const isEligible = checkMinBGrades(student.grades);
+    return res.json({isEligible});
+  } catch (error) {
+    console.error(error);
+    return res.status(500).json({ message: 'Server error'});
+  }
+});
+
+
 module.exports = router;
+
